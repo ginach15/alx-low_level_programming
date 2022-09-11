@@ -4,12 +4,19 @@ int main(void)
 {
 
 /**
- *description: main - prints the phrase "programming is like building a multilingual puzzle
- * return 0: exited properly, non_zero otherwise
- */
+ *
+ *  * main - prints the phrase "Programming is like building a multilingual puzzle
+ *
+ *   * Return: 0 if exited properly, non-zero otherwise
+ *
+ *    */
 
-	puts("\"Programming is like building a multilingual puzzle");
+	int main(void)
 
-	return (0);
+	{
 
-}
+			puts("\"Programming is like building a multilingual puzzle");
+
+				return (0);
+
+	}
