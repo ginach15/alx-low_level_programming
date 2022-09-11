@@ -1,23 +1,13 @@
 #include <stdio.h>
-
 /**
+ * main-printing
  *
- * * main - Printing
- *
- * *
- *
- * * Return: Always 0 (Successful)
- *
+ * return:always 0
  * */
-
 int main(void)
-
 {
+puts("\"Programming is like building a multilingual puzzle");
 
-	puts("\"Programming is like building a multilingual 
-
-			puzzle");
-
-	return (0);
-
+return (0);
 }
+
