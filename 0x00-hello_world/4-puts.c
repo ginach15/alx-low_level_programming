@@ -1,22 +1,23 @@
 #include <stdio.h>
 
-int main(void)
-{
-
 /**
  *
- *  * main - prints the phrase "Programming is like building a multilingual puzzle
+ * * main - Printing
  *
- *   * Return: 0 if exited properly, non-zero otherwise
+ * *
  *
- *    */
+ * * Return: Always 0 (Successful)
+ *
+ * */
 
-	int main(void)
+int main(void)
 
-	{
+{
 
-			puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual 
 
-				return (0);
+			puzzle");
 
-	}
+	return (0);
+
+}
