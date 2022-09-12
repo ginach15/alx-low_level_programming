@@ -4,8 +4,10 @@
  * numbers
 *Return: returns zero at the end
 */
+
 int main(void)
 {
+
 int i, j, p;
 for (i = 0; i < 100; i++)
 {
@@ -15,7 +17,7 @@ if (p > i)
 {
 putchar((i / 10) + '0');
 putchar((i % 10) + '0');
-putchar(' ');		
+putchar('  ');		
 putchar((p / 10) + '0');
 putchar((p % 10) + '0');
 if (i != 98)
