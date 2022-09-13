@@ -10,7 +10,7 @@ int _abs(int c)
 
 {
 
-	If (c > 0 || c == 0)
+	if (c > 0 || c == 0)
 
 	{
 
