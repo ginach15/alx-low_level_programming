@@ -14,7 +14,7 @@ int _abs(int c)
 
 	{
 
-		return ©;
+		return c;
 
 	}
 
