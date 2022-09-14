@@ -5,8 +5,7 @@
  * n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
  * and resets min
  */
- */
- void jack_bauer(void
+ void jack_bauer(void)
 {
 	int hours = 0;
 	int minutes = 0;
