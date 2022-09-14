@@ -1,10 +1,14 @@
 #include <stdio.h>
 
+#include "holberton.h"
+
+
+
 /**
-* print_to_98 – Prints all natural numbers from input to 98
-* in order separated by a comma followed by a space.
-* @n: The number to begin counting at.
-*/
+ * print_to_98 - prints all natural numbers from n to 98,
+ * followed by a new line
+ * @n: print from this number
+ */
 void print_to_98(int n)
 {
 	if (n >= 98)
