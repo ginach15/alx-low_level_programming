@@ -22,7 +22,7 @@ int main(void)
 
 
 
-	(i = 1; i <= 33; ++i)
+for(i = 1; i <= 33; ++i)
 
 	{
 
