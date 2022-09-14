@@ -19,10 +19,7 @@ int main(void)
 	k = 2;
 
 	sum = 0;
-
-
-
-for (i = 1; i <= 33; ++i)
+    for (i = 1; i <= 33; ++i)
 
 	{
 
