@@ -4,7 +4,7 @@
 
 /**
  * main - causes an infinite loop
- * Return: 0 
+ * return: 0 
  */
 
 
