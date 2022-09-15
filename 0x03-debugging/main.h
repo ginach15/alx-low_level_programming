@@ -1,33 +1,25 @@
+
+
 #ifndef MAIN_H
 
 #define MAIN_H
 
-void print_alphabet(void);
 
-print_alphabet_x10(void);
 
-int islower(int c);
+#include <stdio.h>
 
-int _putchar(char c);
 
-int _isalpha(int c);
 
-int print_sign(int n);
+void positive_or_negative(int i);
 
-int _abs(int);
+int largest_number(int a, int b, int c);
 
-int print_last_digit(int);
+void print_remaining_days(int month, int day, int year);
 
-void jack_bauer(void);
+int convert_day(int month, int day);
 
-void times_table(void);
 
-int add(int, int);
 
-void print_to_98(int n);
-
-void print_times_table(int n);
-
-#endif/* MAIN_H */
+#endif /* MAIN_H */
 
 
