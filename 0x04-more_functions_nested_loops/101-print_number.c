@@ -5,12 +5,9 @@
 
 
 /**
- *
- * * print_number - Prints a number
- *
- * * @n: The number to print
- *
- * */
+ * print_number - Prints a number
+ * @n: The number to print
+ */
 
 
 
