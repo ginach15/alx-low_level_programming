@@ -1,1 +1,1 @@
-testaticlib.sh is a script that creates a static library
+0x09 - Static libraries
