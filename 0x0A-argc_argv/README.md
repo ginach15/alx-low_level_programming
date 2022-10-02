@@ -1,1 +1,1 @@
-0x0A. C - argc, argv
+prints the name of the program
