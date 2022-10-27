@@ -1,34 +1,25 @@
-#include "holberton.h"
+#ifndef MAIN_H
 
-/**
- * binary_to_uint - converts a binary number to unsigned int
- * @b: string containing the binary number
- * Return: the converted number
- */
-unsigned int binary_to_uint(const char *b)
+#define MAIN_H
 
-{
+unsigned int binary_to_uint(const char *b);
 
-	int i;
+void print_binary(unsigned long int n);
 
-	unsigned int dec_val = 0;
+int get_bit(unsigned long int n, unsigned int index);
 
-	if (!b)
+int set_bit(unsigned long int *n, unsigned int index);
 
-		return (0);
+int clear_bit(unsigned long int *n, unsigned int index);
 
-	for (i = 0; b[i]; i++)
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
-	{
+int _atoi(const char *s);
 
-		if (b[i] < '0' || b[i] > '1')
+int _putchar(char c);
 
-			return (0);
+int get_endianness(void);
 
-		dec_val = 2 * dec_val + (b[i] - '0');
+#endif
 
-	}
 
-	return (dec_val);
-
-}
