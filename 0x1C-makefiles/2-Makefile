@@ -2,13 +2,13 @@
 CC = gcc
 
 # SRC specifies which files to compile as part of the project
-SRC = main.c holberton.c
+SRC = main.c school.c
 
 # OBJ specifies objects files' name
 OBJ = ${SRC:.c=.o}
 
 # OBJ specifies the name of our executable
-NAME = holberton
+NAME = school
 
 # This is the target that compiles our executable
 all: $(OBJ)
